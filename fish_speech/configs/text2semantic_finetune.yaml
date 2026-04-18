@@ -84,8 +84,8 @@ callbacks:
     every_n_train_steps: 100
   audio_sample:
     _target_: fish_speech.callbacks.AudioSampleCallback
-    text: "<|speaker:0|>Fermi tutti! Questo programma può contenère riferimenti espliciti e si rivolge ad un pubblico adulto. ... e non è adatto... ai minori!"
+    text: "大家好我的名字叫黄诗慧,英文名叫Trump"
     codec_checkpoint_path: checkpoints/s2-pro/codec.pth
-    reference_audio_path: references/barbero/74_La_crisi_del_Trecento_recessione_e_Innovazione_-_ExtraBarbero_Grattacielo_Intesa_Sanpaolo_2019_0027.wav
-    reference_text: "ha avuto i suoi alti e bassi. Quando vi dicevo che nel Medioevo per secoli crescono, beh, noi abbiamo abbastanza indizi del fatto che faceva caldo."
+    reference_audio_path: references/frobit/chunk_0640.wav
+    reference_text: "常指财务或经济上的成功。我们来听两个例句。接着来看 boom。我们通常用动词 boom 表示数量或人气激增，常用来谈论产品、企业的销量迅速增长，人或物迅速流行起来。注意，与 prosper 相比，boom 更突出发展的迅速。"
     audio_format: mp3
